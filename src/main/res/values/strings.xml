@@ -1,38 +1,38 @@
 <resources>
-	<string name="app_name">Power Menu</string>
-	<string name="app_pref_name">Power Menu Config</string>
+	<string name="app_name">Güç Menüsü</string>
+	<string name="app_pref_name">Güç Menüsü Ayar</string>
 
 	<string name="shutdown_fail">Failed shutting down, not installed as system app?</string>
-	<string name="sleep_fail">Failed putting to sleep, please report</string>
-	<string name="restart_fail">Failed rebooting, not installed as system app?</string>
-	<string name="soft_reboot_fail">Failed soft rebooting, please report</string>
-	<string name="screenshot_fail_file">Failed taking screenshot, try disabling "mount namespace separation" in SuperSU</string>
-	<string name="screenshot_fail_screencap">Failed taking screenshot</string>
+	<string name="sleep_fail">Uyumaya geçerken hata oluştu, lütfen raporlayın</string>
+	<string name="restart_fail">Yeniden başlatılırken hata oluştu, sistem uygulaması olarak kurulamadı?</string>
+	<string name="soft_reboot_fail">Yumuşak başlatmada hata oluştu, lütfen raporlayın</string>
+	<string name="screenshot_fail_file">Ekran görüntüsü alırken hata oluştu, SuperSU'dan "mount namespace separation" ayarını kapatmayı deneyin</string>
+	<string name="screenshot_fail_screencap">Ekran görüntüsü alırken hata oluştu</string>
 	<string name="start_activity_fail">Failed starting activity, please report</string>
 	<string name="su_failed">Failed running su command, not rooted?</string>
-	<string name="screenshot_succeed_fallback">Screenshot captured</string>
+	<string name="screenshot_succeed_fallback">Ekran görüntüsü alındı</string>
 	<string name="overlay_permission_required">Please grant us permission to draw over other apps</string>
 	<string name="overlay_permission_settings_open_failed">Failed opening Android Settings, please grant us permission to draw over other apps manually</string>
 	<string name="write_storage_required">Please grant us permission in order to take screenshots</string>
 
-	<string name="restart_mode_normal">Reboot</string>
-	<string name="restart_mode_normal_or_soft">Reboot (hold to soft reboot)</string>
-	<string name="restart_mode_recovery">Recovery</string>
-	<string name="restart_mode_bootloader">Bootloader</string>
+	<string name="restart_mode_normal">Yeniden başlatma</string>
+	<string name="restart_mode_normal_or_soft">Reboot (soft reboot için basılı tutun)</string>
+	<string name="restart_mode_recovery">Kurtarma (Recovery)</string>
+	<string name="restart_mode_bootloader">Açılış animasyonu (Bootloader)</string>
 
 	<string name="install_confirm_title">Install as System App</string>
 	<string name="install_confirm_content">This app makes use of features only available to system apps.\n\nSave your work before proceeding, your device will reboot automatically after the installation.</string>
 	<string name="install_confirm_positive">Install</string>
 
-	<string name="install_title">Installing...</string>
+	<string name="install_title">Kuruluyor...</string>
 	<string name="install_content">Do not do anything. You device will reboot automatically if successful</string>
-	<string name="install_failed">Failed installing, not rooted?</string>
+	<string name="install_failed">Kurulurken hata, rootlu değil?</string>
 
-	<string name="uninstall_title">Uninstalling...</string>
+	<string name="uninstall_title">Kaldırılıyor...</string>
 	<string name="uninstall_content">Do not do anything. You device will reboot automatically if successful</string>
-	<string name="uninstall_failed">Failed uninstalling, not rooted?</string>
+	<string name="uninstall_failed">Kaldırılırken hata, rootlu değil?</string>
 
-	<string name="shutdown_confirm_title">Ready to shut down?</string>
+	<string name="shutdown_confirm_title">Kapatmaya hazır?</string>
 	<string name="shutdown_confirm_content">All unsaved work would be lost</string>
 
 	<string name="restart_confirm_title">Ready to restart?</string>
@@ -77,9 +77,9 @@
 	<string name="pref_install_key" translatable="false">install</string>
 
 	<string name="pref_dark_theme_key" translatable="false">dark_theme</string>
-	<string name="pref_dark_theme_title">Dark theme</string>
+	<string name="pref_dark_theme_title">Koyu tema</string>
 	<string name="pref_dark_theme_summary_on">Using dark theme</string>
-	<string name="pref_dark_theme_summary_off">Using light theme</string>
+	<string name="pref_dark_theme_summary_off">Açık tema kullanılıyor</string>
 
 	<string name="pref_experimental_category">Experimental</string>
 
